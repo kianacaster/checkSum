@@ -19,5 +19,5 @@ bool checkSum(int* array, int desiredSum)
 int main()
 {
   int testArray[8] = {0,2,3,6,8,2,4,1}; 
-  cout << checkSum(testArray, 9);
+  checkSum(testArray, 9); // Returns true because 6 + 3 = 9
 }
