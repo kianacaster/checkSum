@@ -20,4 +20,5 @@ int main()
 {
   int testArray[8] = {0,2,3,6,8,2,4,1}; 
   checkSum(testArray, 9); // Returns true because 6 + 3 = 9
+  return 0;
 }
